@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------header start----------*/
+
+main {
+  max-width: 1740px;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+}
+
+.container {
+  max-width: 1140px;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  
+ }
+
+header nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .logo h4 {
+ color: #0B132A;
+ font-size: 20px;
+
+}
+
+
+
+header nav ul {
+  list-style-type: none;
+  display:flex;
+  justify-content: space-between;
+
+  
+}
+
+
+header nav ul li a {
+text-decoration: none;
+margin: 40px;
+color: #4F5665;
+font-size: 12px;
+
+
+}
+
+nav ul li a:hover {
+  color: #fff;
+  color: #F53838;
+}
+
+header nav .btn {
+  font-size: 15px;
+  margin: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #0B132A;
+
+  
+
+} 
+
+header nav .btn_ {
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  border: 1px solid #F53855;
+  border-radius: 50px;
+  float: right;
+  color: #F53855;
+  background-color: #fff;
+}
+
+
+/*----------------hedaer end --------------------*/
+
+
+ /* ------------ section section start --------------*/
+
+  
+.container_1 {
+  max-width: 1140;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+section .right {
+  margin: 70px 150px;
+}
+
+section .right h1 {
+  width: 555px;
+  height: 140px;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+section .right p {
+  width: 500px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+section .right button {
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #F53838;
+  margin: 50px 0;
+  
+
+}
+
+section .right button:hover{
+ background-color: lime;
+ color: #0B132A;
+}
+
+section .left.imag {
+width: 611px;
+height: 382px;
+left: 745px;
+}
+
+section .card {
+  max-width: 1140;
+  height: 100%;
+  margin: 103px 150px;
+display: flex;
+justify-content:space-between;
+}
+
+section .card_1 {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  column-gap: 36px;
+}
+
+
+/*----------------------------------------------*/
+
+.intro {
+  max-width: 1140;
+  height: 100%;
+  width: 100%;
+  margin: 184px 194px;
+  display: flex;
+  align-items: center;
+
+  
+
+
+
+}
+
+.intro.image {
+  width: 508px;
+  height: 414px;
+  top: 906px;
+  left: 184px;
+  
+  
+
+}
+
+.intro.left_1 {
+  margin: 30px;
+  column-gap: 100px;
+}
+
+.intro.left_1.h1 {
+  font-size: 45px;
+  width: 383px;
+  top: 1014;
+  left: 862px;
+  line-height: 50px;
+  color: #0B132A;
+}
+
+.intro.left_1 p {
+  width: 42px;
+  height: 60px;
+  top: 1134px;
+  left: 862px;
+  font-size: 16;
+  color: #4F5665;
+}
+
+.intro.left_2 {
+  max-width: 1140;
+  height: 100%;
+  margin: 103px 150px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.intro.left_2.list {
+  display: flex;
+  align-items: center;
+}
+
+/*-----------intro 2---------------*/
+
+.intro_2{
+  max-width: 1140;
+ 
+}
+
+.container_2{
+
+  margin: 80px 40px;
+  
+}
+
+.container2{
+  max-width: 1140;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.first{
+  
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px solid gold;
+}
+
+/*---------------------------------------------------------*/
+
+.intro-3 {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper h1{
+margin:0 527px;
+text-align: center;
+width: 383px;
+height: 100px;
+top: 2686px;
+left: 528px;
+font-size: 36px;
+}
+
+.wrapper p {
+  margin: 0 443px;
+  text-align: center;
+  width: 555px;
+  height: 60px;
+  top: 2806px;
+  left: 442px;
+  font-size: 16px;
+
+}
+
+.wrapper img {
+  width: 1060px;
+  height: 537px;
+  top: 3022px;
+  left: 190px;
+  margin: 40px 189px;
+}
+
+.wrapper .image {
+  width: 1230px;
+  height: 82px;
+  top: 3651px;
+  left: 50px;
+}
+
+.wrapper.text {
+  margin: 120px 496px;
+  text-align: center;
+  width: 447px;
+  height: 100px;
+  top: 3854px;
+  left: 496px;
+  font-size: 35px;
+}
+.wrapper.prg {
+  margin: 20px 442px;
+  text-align: center;
+  width: 555px;
+  height: 60px;
+  top: 3974px;
+  left: 442px;
+  font-size: 12px;
+  color: #4F5665;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+    
+    
